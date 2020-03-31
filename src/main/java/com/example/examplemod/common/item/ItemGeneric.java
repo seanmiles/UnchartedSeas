@@ -28,7 +28,7 @@ public class ItemGeneric extends Item
         this.textLength = textLength;
     }
 
-    /*public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn)
+    public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn)
     {
         if (textLength > 0)
         {
@@ -37,5 +37,5 @@ public class ItemGeneric extends Item
                 tooltip.add(I18n.format(this.getTranslationKey() + ".desc" + i));
             }
         }
-    }*/
+    }
 }

@@ -34,7 +34,8 @@ public class CommonProxy
                     }
                 }
             }
-        } catch (IllegalAccessException e)
+        }
+        catch (IllegalAccessException e)
         {
             throw new RuntimeException(e);
         }
@@ -66,19 +67,23 @@ public class CommonProxy
                     }
                 }
             }
-        } catch (IllegalAccessException e) {
+        }
+        catch (IllegalAccessException e)
+        {
             throw new RuntimeException(e);
         }
 
         // Items
-        try {
+        try
+        {
             for (Field f : ModItems.class.getDeclaredFields())
             {
                 Object obj = f.get(null);
                 if (obj instanceof Item)
                 {
                     event.getRegistry().register((Item) obj);
-                } else if (obj instanceof Item[])
+                }
+                else if (obj instanceof Item[])
                 {
                     for (Item item : (Item[]) obj)
                     {
@@ -86,7 +91,8 @@ public class CommonProxy
                     }
                 }
             }
-        } catch (IllegalAccessException e)
+        }
+        catch (IllegalAccessException e)
         {
             throw new RuntimeException(e);
         }
