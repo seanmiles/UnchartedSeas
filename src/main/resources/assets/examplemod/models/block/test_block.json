@@ -2,6 +2,6 @@
   "parent": "block/cube_all",
   "textures":
   {
-    "all": "examplemod:blocks/test_block"
+    "all": "unchartedseas:blocks/test_block"
   }
 }

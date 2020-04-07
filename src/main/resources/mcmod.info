@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "unchartedseas",
+  "name": "Uncharted Seas",
+  "description": "Explore the uncharted seas of Minecraft and discover new lands, people, and creatures.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Sean Miles"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

@@ -1,7 +1,7 @@
-itemGroup.examplemod=Example Mod
+itemGroup.unchartedseas=Uncharted Seas
 
 # blocks
-tile.examplemod.test_block.name=Test Block
+tile.unchartedseas.test_block.name=Test Block
 
 # items
-item.examplemod.test_item.name=Test Item
+item.unchartedseas.test_item.name=Test Item

@@ -1,6 +1,6 @@
-package com.example.examplemod.common.blocks;
+package com.github.seanmiles.unchartedseas.common.blocks;
 
-import com.example.examplemod.ExampleMod;
+import com.github.seanmiles.unchartedseas.UnchartedSeas;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -19,9 +19,9 @@ public class BlockGeneric extends Block
         this.setHardness(hardness);
         this.setResistance(resistance);
         this.setSoundType(sound);
-        this.setCreativeTab(ExampleMod.TAB);
-        this.setRegistryName(ExampleMod.MODID, name);
-        this.setTranslationKey(ExampleMod.MODID + "." + getRegistryName().getPath());
+        this.setCreativeTab(UnchartedSeas.TAB);
+        this.setRegistryName(UnchartedSeas.MODID, name);
+        this.setTranslationKey(UnchartedSeas.MODID + "." + getRegistryName().getPath());
     }
 
     public BlockGeneric(String name, Material mat, String toolUsed, int toolStrength, float hardness, float resistance, SoundType sound)
@@ -31,10 +31,10 @@ public class BlockGeneric extends Block
         this.setHardness(hardness);
         this.setResistance(resistance);
         this.setSoundType(sound);
-        this.setCreativeTab(ExampleMod.TAB);
-        this.setRegistryName(ExampleMod.MODID, name);
-        this.setTranslationKey(ExampleMod.MODID + "." + getRegistryName().getPath());
-        System.out.println(ExampleMod.MODID + "." + getRegistryName().getPath());
+        this.setCreativeTab(UnchartedSeas.TAB);
+        this.setRegistryName(UnchartedSeas.MODID, name);
+        this.setTranslationKey(UnchartedSeas.MODID + "." + getRegistryName().getPath());
+        System.out.println(UnchartedSeas.MODID + "." + getRegistryName().getPath());
     }
 
     public BlockGeneric(String name, Material mat, float hardness, float resistance, SoundType sound, float light)
@@ -43,9 +43,9 @@ public class BlockGeneric extends Block
         this.setHardness(hardness);
         this.setResistance(resistance);
         this.setSoundType(sound);
-        this.setCreativeTab(ExampleMod.TAB);
-        this.setRegistryName(ExampleMod.MODID, name);
-        this.setTranslationKey(ExampleMod.MODID + "." + getRegistryName().getPath());
+        this.setCreativeTab(UnchartedSeas.TAB);
+        this.setRegistryName(UnchartedSeas.MODID, name);
+        this.setTranslationKey(UnchartedSeas.MODID + "." + getRegistryName().getPath());
         this.setLightLevel(light);
     }
 

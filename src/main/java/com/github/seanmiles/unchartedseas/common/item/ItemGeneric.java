@@ -1,6 +1,6 @@
-package com.example.examplemod.common.item;
+package com.github.seanmiles.unchartedseas.common.item;
 
-import com.example.examplemod.ExampleMod;
+import com.github.seanmiles.unchartedseas.UnchartedSeas;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
@@ -17,9 +17,9 @@ public class ItemGeneric extends Item
     public ItemGeneric(String name)
     {
         super();
-        this.setCreativeTab(ExampleMod.TAB);
-        this.setRegistryName(ExampleMod.MODID, name);
-        this.setTranslationKey(ExampleMod.MODID + "." + getRegistryName().getPath());
+        this.setCreativeTab(UnchartedSeas.TAB);
+        this.setRegistryName(UnchartedSeas.MODID, name);
+        this.setTranslationKey(UnchartedSeas.MODID + "." + getRegistryName().getPath());
     }
 
     public ItemGeneric(String name, int textLength)

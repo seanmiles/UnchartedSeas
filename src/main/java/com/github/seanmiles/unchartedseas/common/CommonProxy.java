@@ -1,7 +1,7 @@
-package com.example.examplemod.common;
+package com.github.seanmiles.unchartedseas.common;
 
-import com.example.examplemod.common.blocks.ModBlocks;
-import com.example.examplemod.common.item.ModItems;
+import com.github.seanmiles.unchartedseas.common.blocks.ModBlocks;
+import com.github.seanmiles.unchartedseas.common.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;

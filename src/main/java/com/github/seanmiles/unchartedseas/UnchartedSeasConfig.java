@@ -1,8 +1,8 @@
-package com.example.examplemod;
+package com.github.seanmiles.unchartedseas;
 
 import net.minecraftforge.common.config.Configuration;
 
-public class ExampleModConfig
+public class UnchartedSeasConfig
 {
     // Config Options
 
